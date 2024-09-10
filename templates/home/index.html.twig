@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!
+{% endblock %}
+{% block body %}
+    <twig:InteractiveMap :map="map" />
+    {# {{ render_map(map, {style: 'height: 600px;'}) }} #}
+{% endblock %}
